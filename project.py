@@ -1,7 +1,7 @@
 import pandas as pd
 from sklearn.preprocessing import OneHotEncoder
 
-year07 = pd.read_csv('solar_wind_data/2007_CELIAS_Proton_Monitor_5min.csv')
+year07 = pd.read_csv('solar_wind_data/2007_CELIAS_Proton_Monitor_5min.csv') #diff
 year08 = pd.read_csv('solar_wind_data/2008_CELIAS_Proton_Monitor_5min.csv')
 year09 = pd.read_csv('solar_wind_data/2009_CELIAS_Proton_Monitor_5min.csv')
 year10 = pd.read_csv('solar_wind_data/2010_CELIAS_Proton_Monitor_5min.csv')
